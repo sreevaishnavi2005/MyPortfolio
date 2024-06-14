@@ -1,0 +1,124 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('C:/Users/sree/Desktop/Portfolio/Portfolio/bg.jpg');
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Makes the background image fixed when scrolling */
+    background-position: center; /* Centers the background image */
+    color: #333; /* Ensures text color contrasts with the background image */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background to improve readability */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 2rem 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background to improve readability */
+}
+
+.about, .projects, .contact {
+    padding: 2rem 0;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project {
+    flex: 1 1 calc(33.333% - 1rem);
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background to improve readability */
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0288d1; /* Dark sky blue */
+    text-decoration: none;
+    border: 1px solid #0288d1;
+    padding: 0.5rem 1rem;
+}
+
+.project a:hover {
+    background: #0288d1; /* Dark sky blue */
+    color: #fff;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+.contact input, .contact textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #0288d1; /* Dark sky blue border */
+}
+
+.contact button {
+    padding: 0.7rem;
+    border: none;
+    background: #0288d1; /* Dark sky blue */
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #0277bd; /* Slightly darker sky blue */
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background to improve readability */
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
